@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/utel_web/static/css/main.fbf6680b.css",
-    "main.js": "/utel_web/static/js/main.f384a9b9.js",
+    "main.js": "/utel_web/static/js/main.92062abb.js",
     "static/js/787.5f6fdbf9.chunk.js": "/utel_web/static/js/787.5f6fdbf9.chunk.js",
     "index.html": "/utel_web/index.html",
     "main.fbf6680b.css.map": "/utel_web/static/css/main.fbf6680b.css.map",
-    "main.f384a9b9.js.map": "/utel_web/static/js/main.f384a9b9.js.map",
+    "main.92062abb.js.map": "/utel_web/static/js/main.92062abb.js.map",
     "787.5f6fdbf9.chunk.js.map": "/utel_web/static/js/787.5f6fdbf9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fbf6680b.css",
-    "static/js/main.f384a9b9.js"
+    "static/js/main.92062abb.js"
   ]
 }
