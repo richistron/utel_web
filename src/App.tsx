@@ -9,6 +9,7 @@ import {
 import Layout from './Layout'
 import HomePage from './components/pages/HomePage'
 import GenericPage from './components/pages/GenericPage'
+import CatsPage from './components/pages/CatsPage'
 
 const router = createHashRouter(
   createRoutesFromElements(
@@ -30,6 +31,7 @@ const router = createHashRouter(
         path="/contacto"
         element={<GenericPage title={'Contacto'} text={'toffee'} />}
       />
+      <Route path="/gatos" element={<CatsPage />} />
     </Route>
   )
 )

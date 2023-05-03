@@ -9,6 +9,7 @@ const NavBar = () => {
         <NavLink location={'/servicios'} text={'Servicios'} />
         <NavLink location={'/galeria'} text={'Galería'} />
         <NavLink location={'/contacto'} text={'Contacto'} />
+        <NavLink location={'/gatos'} text={'Gatos'} />
       </div>
     </nav>
   )
