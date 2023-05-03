@@ -11,12 +11,14 @@ const NavLink: FC<NavLinkProps> = (props) => {
   const { location, text } = props
   const { pathname } = useLocation()
   return (
-    <Link
-      to={location}
-      className={`nav-link ${isLinkDisabled(location, pathname)}`}
-    >
-      {text}
-    </Link>
+    <div className="nav-item">
+      <Link
+        to={location}
+        className={`nav-link ${isLinkDisabled(location, pathname)}`}
+      >
+        {text}
+      </Link>
+    </div>
   )
 }
 
