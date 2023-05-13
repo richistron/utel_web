@@ -22,6 +22,5 @@ jobs:
           cache: 'npm'
         env:
           CI: true
-      - run: echo $CI
-#      - run: npm build
-#      - run: npm test
+      - run: npm build
+      - run: npm test
